@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT PAGE</title>
+
+    <!-- cdn links  & google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- js links -->
+    <script defer src="app.js"></script>
+</head>
+
+<body class="main-content">
+    
+    <main>
+        <section class="active">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>me</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>contact me here</h4>
+                        <p>For all enquries, please contact me through any of the following</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Location
+                                </div>
+                                <p>
+                                    : Benin,  Nigeria.
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>
+                                        : Smartinfonet01@gmail.com
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p><span>2348060229988</span></p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p><span>English, Hausa,  Arabic </span></p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/Abdullahi.mustafa.771" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.twitter.com/smartinfonet" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/smartinfonet" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://wa.me/08060229988" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form class="contact-form" netlify-honeypot="bot-field" name="contact" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p class="hidden">
+                                <label>
+                                  Don’t fill this out if you’re human: <input name="bot-field" />
+                                </label>
+                              </p>
+                              
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="Your Name">
+                                <input type="email" required placeholder="Your Email">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="Enter Subject">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="write your message here"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn" se>
+                                    <span class="btn-text">Send message</span>
+                                    
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       
+    </main>
+    <div class="controls">
+        <div class="control control-1" data-id="home">
+            <a href="index.html"><i class="fas fa-home"></i></a>
+        </div>
+        <div class="control control-2 " data-id="about">
+            
+            <a href="about.html"> <i class="fas fa-user"></i> </a>
+        </div>
+        <div class="control control-3 " data-id="portfolio">
+            <a href="portfolio.html"><i class="fas fa-newspaper "></i></a>
+        </div>
+        <div class="control control-4 " data-id="blogs">
+            <a href="blogs.html"> <i class="fas fa-briefcase"></i></a>
+        </div>
+        <div class="control control-5 active-btn" data-id="contact">
+            <a href="contact.html"> <i class="fas fa-envelope-open"></i></a>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+</body>
+
+</html>
